@@ -1,3 +1,28 @@
-span{
-    float: left;
+li{
+    background-color: darkcyan;
+    width: 90%;
+    height: 100px;
+    margin: 10px auto;
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button, li span{
+    margin: 70px;
+    box-sizing: border-box;
+}
+
+li button{
+    background-color:cornflowerblue;
+    border:1px solid blanchedalmond;
+    height: 40px;
+    border-radius: 4px;
+}
+
+li button:active{
+    background-color:rgb(99, 133, 195);
 }

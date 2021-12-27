@@ -1,5 +1,6 @@
 import React from "react";
 import { TodoItem } from "../todo_item/TodoItem";
+import "./TodoList.css"
 
 export function TodoList(par) {
   return (
